@@ -6,9 +6,14 @@
     "url": "git@github.com:tech-demo/template-nexe.git"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nodemon -r babel-register src",
+    "start": "pm2 start dist --name sync-projects",
+    "build": "babel src -d dist"
   },
   "main": "index.js",
+  "engines": {
+    "node": "8.1.4"
+  },
   "dependencies": {
     "pm2": "2.9.1"
   },
