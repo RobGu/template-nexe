@@ -6,7 +6,7 @@
     "url": "git@github.com:tech-demo/template-nexe.git"
   },
   "scripts": {
-    "dev": "nodemon -r babel-register src",
+    "dev": "nodemon -r babel-register src -w src",
     "start": "pm2 start dist --name sync-projects",
     "build": "babel src -d dist"
   },

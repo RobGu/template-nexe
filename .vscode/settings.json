@@ -1,3 +1,50 @@
 {
-  "eslint.autoFixOnSave": true
+  "cSpell.language": "en",
+  "cSpell.words": [
+    "antd",
+    "backend",
+    "kbps",
+    "wechat"
+  ],
+  "diffEditor.ignoreTrimWhitespace": true,
+  "editor.insertSpaces": true,
+  "editor.renderWhitespace": "all",
+  "editor.tabSize": 2,
+  "editor.trimAutoWhitespace": true,
+  "editor.wordWrap": "on",
+  "editor.wordWrapColumn": 120,
+  "eslint.autoFixOnSave": true,
+  "files.associations": {
+    ".stylelintrc": "json"
+  },
+  "files.autoSave": "onWindowChange",
+  "files.eol": "\n",
+  "files.insertFinalNewline": true,
+  "files.trimFinalNewlines": true,
+  "files.trimTrailingWhitespace": true,
+  "git.autofetch": true,
+  "git.confirmSync": false,
+  "gitlens.advanced.messages": {
+    "suppressCommitHasNoPreviousCommitWarning": false,
+    "suppressCommitNotFoundWarning": false,
+    "suppressFileNotUnderSourceControlWarning": false,
+    "suppressGitVersionWarning": false,
+    "suppressLineUncommittedWarning": true,
+    "suppressNoRepositoryWarning": false,
+    "suppressUpdateNotice": true,
+    "suppressWelcomeNotice": true
+  },
+  "gitlens.codeLens.authors.enabled": false,
+  "gitlens.codeLens.recentChange.enabled": false,
+  "gitlens.remotes": [
+    {
+      "type": "GitHub",
+      "domain": "github.com"
+    }
+  ],
+  "javascript.validate.enable": false,
+  "search.exclude": {
+    ".vscode": true
+  },
+  "sort-imports.suppress-warnings": true
 }
