@@ -12,6 +12,14 @@
   ],
   "plugins": [
     "transform-decorators-legacy",
-    "transform-runtime"
+    "transform-runtime",
+    [
+      "module-resolver", {
+        "root": ["./src"],
+        "alias": {
+          "~": "./src"
+        }
+      }
+    ]
   ]
 }
