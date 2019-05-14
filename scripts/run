@@ -1,4 +1,9 @@
-#!/usr/bin/env node
+#!/usr/bin/env bash
 
-require('@babel/register');
-require('../src');
+CURRENT_PATH=`pwd`
+SHELL_PATH=`dirname $0`
+
+cd "$SHELL_PATH"
+cd ..
+
+node -r @babel/register src/index --current-path=$CURRENT_PATH $*
